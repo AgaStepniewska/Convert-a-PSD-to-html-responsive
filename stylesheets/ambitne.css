@@ -1,0 +1,356 @@
+@import url("https://fonts.googleapis.com/css?family=Open+Sans|Raleway:400,700,900|Playfair+Display:400i");
+.textsettings, .jumbotron h2, .jumbotron p, .atributes, .atributes .col-4 {
+  text-align: center;
+  margin-right: auto;
+  margin-left: auto; }
+
+.marginset, .team, .slogan {
+  margin-right: auto;
+  margin-left: auto; }
+
+body {
+  font-family: "Raleway", sans-serif;
+  max-width: 1600px;
+  margin: 0 auto; }
+
+.jumbotron {
+  background-image: url(https://images84.fotosik.pl/616/4c9b746d328e52b3.jpg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover; }
+
+.jumbotron {
+  height: 100vh; }
+  .jumbotron h2, .jumbotron p {
+    color: #fff; }
+  .jumbotron h2 {
+    margin-top: 150px; }
+  .jumbotron p {
+    font-size: 12px; }
+  .jumbotron .navbar-inverse {
+    border: 0;
+    -webkit-box-shadow: none;
+    box-shadow: none;
+    background: transparent; }
+    .jumbotron .navbar-inverse .navbar-collapse {
+      border: 0;
+      -webkit-box-shadow: none;
+      box-shadow: none; }
+    .jumbotron .navbar-inverse li a {
+      color: #fff; }
+  .jumbotron .btn {
+    border-radius: 0; }
+
+.col-1 {
+  width: 8.33%; }
+
+.col-2 {
+  width: 16.66%; }
+
+.col-3 {
+  width: 25%; }
+
+.col-4 {
+  width: 33.33%; }
+
+.col-5 {
+  width: 41.66%; }
+
+.col-6 {
+  width: 50%; }
+
+.col-7 {
+  width: 58.33%; }
+
+.col-8 {
+  width: 66.66%; }
+
+.col-9 {
+  width: 75%; }
+
+.col-10 {
+  width: 83.33%; }
+
+.col-11 {
+  width: 91.66%; }
+
+.col-12 {
+  width: 100%; }
+
+[class*="col-"] {
+  Float: left;
+  min-height: 1px;
+  text-align: center;
+  margin: 0;
+  position: relative; }
+
+.row:before,
+.row:after {
+  content: "";
+  display: table;
+  clear: both; }
+
+.atributes {
+  max-width: 60%;
+  margin-top: 5%;
+  margin-bottom: 5%;
+  height: 25vh; }
+  .atributes .col-4 .fa {
+    font-size: 60px;
+    color: #e94949; }
+  .atributes .col-4 h4 {
+    font-weight: 700; }
+  .atributes .col-4 p {
+    font-size: 12px;
+    margin-right: 6%;
+    margin-left: 6%; }
+
+.gallery {
+  max-height: 35vh; }
+  .gallery img {
+    width: 100%;
+    height: 35vh;
+    display: block;
+    object-fit: cover;
+    border: 1px solid #fff; }
+  .gallery .layer {
+    position: absolute;
+    height: 35vh;
+    width: 100%;
+    display: block;
+    opacity: 0; }
+    .gallery .layer:hover {
+      opacity: 1;
+      background-color: rgba(233, 73, 73, 0.9); }
+    .gallery .layer h5 {
+      color: #fff;
+      margin-top: 25%; }
+    .gallery .layer p {
+      color: #fff;
+      font-size: 10px; }
+
+.team {
+  max-width: 60%; }
+  .team img {
+    margin-top: 30%;
+    width: 90%;
+    height: auto; }
+  .team h5, .team h6, .team p {
+    text-align: left;
+    width: 90%;
+    margin-left: 5%; }
+  .team h6 {
+    font-size: 10px;
+    color: #e94949; }
+  .team p {
+    font-size: 11px;
+    margin-top: 10%; }
+  .team .socialmedia {
+    max-width: 65%;
+    margin-left: 5%;
+    text-align: left;
+    margin-top: 10%; }
+    .team .socialmedia i {
+      width: 35px;
+      height: 35px;
+      font-size: 18px;
+      background-color: #fff;
+      color: #999e9a;
+      border: 1px solid #999e9a;
+      padding-top: 5%;
+      text-align: center; }
+      .team .socialmedia i:hover {
+        cursor: pointer;
+        box-shadow: 1px 2px 2px 0px rgba(0, 0, 0, 0.4); }
+
+.slogan {
+  width: 100%;
+  height: 60vh;
+  margin-top: 5%; }
+  .slogan img {
+    width: 100%;
+    height: 60vh;
+    border: 1px solid #fff; }
+  .slogan .carousel {
+    max-width: 100%; }
+  .slogan .item {
+    width: 100%;
+    height: 60vh; }
+    .slogan .item h4 {
+      text-align: left;
+      max-width: 60%;
+      font-size: 28px;
+      color: #fff;
+      margin-top: 5%;
+      margin-left: 10%;
+      margin-right: 15%;
+      font-family: "Playfair Display", serif; }
+    .slogan .item .paragraf2 {
+      text-align: left;
+      font-size: 11px;
+      color: #fff;
+      margin-left: 10%; }
+  .slogan .example-1 {
+    background-color: #53354a; }
+  .slogan .example-2 {
+    background-color: #3a3e64; }
+  .slogan .example-3 {
+    background-color: #bd8cbf; }
+  .slogan .example-4 {
+    background-color: #313454; }
+  .slogan .example-5 {
+    background-color: #e94949; }
+
+.download {
+  height: 25vh;
+  margin-top: 3%;
+  margin-bottom: 5%; }
+  .download h5 {
+    text-transform: uppercase;
+    font-size: 12px; }
+  .download .btn {
+    border-radius: 0;
+    font-size: 10px; }
+  .download a {
+    width: 200px; }
+
+.footer {
+  margin: 0;
+  background-color: #3a3e64;
+  color: #fff; }
+  .footer .footer-up {
+    max-width: 60%;
+    margin-left: auto;
+    margin-right: auto; }
+    .footer .footer-up p {
+      color: #9c9dac;
+      font-size: 11px; }
+    .footer .footer-up .fa {
+      width: 30px;
+      height: 30px;
+      font-size: 18px;
+      color: #fff;
+      border: 1px solid #fff;
+      padding: 2%;
+      text-align: center; }
+      .footer .footer-up .fa:hover {
+        cursor: pointer; }
+
+.footer-bottom {
+  margin-right: 0;
+  background-color: #313454; }
+  .footer-bottom h5, .footer-bottom .color {
+    color: #6a6a72; }
+  .footer-bottom .fa {
+    color: #e94949; }
+  .footer-bottom .other {
+    color: #fff; }
+
+@media(min-width: 768px) and (max-width: 1199px), (max-width: 768px) {
+  .jumbotron .navbar-inverse .navbar-collapse {
+    background: transparent; }
+
+  .gallery .layer:hover {
+    opacity: 0;
+    background-color: transparent; }
+
+  .team {
+    max-width: 80%; }
+
+  #myCarousel h4 {
+    font-size: 20px;
+    margin-top: 2%; }
+  #myCarousel .paragraf2 {
+    font-size: 10px; } }
+@media(min-width: 768px) and (max-width: 1199px) {
+  .col-m-1 {
+    width: 8.33%; }
+
+  .col-m-2 {
+    width: 16.66%; }
+
+  .col-m-3 {
+    width: 25%; }
+
+  .col-m-4 {
+    width: 33.33%; }
+
+  .col-m-5 {
+    width: 41.66%; }
+
+  .col-m-6 {
+    width: 50%; }
+
+  .col-m-7 {
+    width: 58.33%; }
+
+  .col-m-8 {
+    width: 66.66%; }
+
+  .col-m-9 {
+    width: 75%; }
+
+  .col-m-10 {
+    width: 83.33%; }
+
+  .col-m-11 {
+    width: 91.66%; }
+
+  .col-m-12 {
+    width: 100%; }
+
+  .atributes {
+    max-width: 80%; } }
+@media(max-width: 768px) {
+  .col-s-1 {
+    width: 8.33%; }
+
+  .col-s-2 {
+    width: 16.66%; }
+
+  .col-s-3 {
+    width: 25%; }
+
+  .col-s-4 {
+    width: 33.33%; }
+
+  .col-s-5 {
+    width: 41.66%; }
+
+  .col-s-6 {
+    width: 50%; }
+
+  .col-s-7 {
+    width: 58.33%; }
+
+  .col-s-8 {
+    width: 66.66%; }
+
+  .col-s-9 {
+    width: 75%; }
+
+  .col-s-10 {
+    width: 83.33%; }
+
+  .col-s-11 {
+    width: 91.66%; }
+
+  .col-s-12 {
+    width: 100%; }
+
+  .jumbotron .navbar-inverse .navbar-collapse {
+    text-align: center; }
+
+  .team img {
+    max-width: 60%;
+    height: auto;
+    margin-top: 5%; }
+  .team h5, .team h6, .team p, .team .socialmedia {
+    max-width: 60%;
+    margin-top: 5%;
+    margin-left: auto;
+    margin-right: auto; }
+
+  .slogan img {
+    display: none;
+    margin-top: 0; } }
