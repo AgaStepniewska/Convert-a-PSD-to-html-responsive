@@ -17,9 +17,7 @@ body {
   background-image: url(https://images84.fotosik.pl/616/4c9b746d328e52b3.jpg);
   background-repeat: no-repeat;
   background-position: center;
-  background-size: cover; }
-
-.jumbotron {
+  background-size: cover;
   height: 100vh; }
   .jumbotron h2, .jumbotron p {
     color: #fff; }
@@ -214,18 +212,18 @@ body {
   .download a {
     width: 200px; }
 
-.footer {
-  margin: 0;
+.topfooter {
+  margin-bottom: 0;
   background-color: #3a3e64;
   color: #fff; }
-  .footer .footer-up {
+  .topfooter .footer-up {
     max-width: 60%;
     margin-left: auto;
     margin-right: auto; }
-    .footer .footer-up p {
+    .topfooter .footer-up p {
       color: #9c9dac;
       font-size: 11px; }
-    .footer .footer-up .fa {
+    .topfooter .footer-up .fa {
       width: 30px;
       height: 30px;
       font-size: 18px;
@@ -233,17 +231,22 @@ body {
       border: 1px solid #fff;
       padding: 2%;
       text-align: center; }
-      .footer .footer-up .fa:hover {
+      .topfooter .footer-up .fa:hover {
         cursor: pointer; }
 
-.footer-bottom {
-  margin-right: 0;
-  background-color: #313454; }
-  .footer-bottom h5, .footer-bottom .color {
+footer {
+  margin-top: 0;
+  background-color: #313454;
+  min-height: 10vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center; }
+  footer h5, footer .color {
     color: #6a6a72; }
-  .footer-bottom .fa {
+  footer .fa {
     color: #e94949; }
-  .footer-bottom .other {
+  footer .other {
     color: #fff; }
 
 @media(min-width: 768px) and (max-width: 1199px), (max-width: 768px) {
